@@ -9,5 +9,4 @@ data class Schedule(
     @PrimaryKey val id: Int,
     @ColumnInfo(name = "stop_name") val stopName: String,
     @ColumnInfo(name = "arrival_time") val arrivalTime: Int,
-
 )
